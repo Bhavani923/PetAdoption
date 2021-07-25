@@ -1,0 +1,47 @@
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#6abadeba; 
+}
+h1{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+.container{
+	margin-top:200px;
+		width: 300px;  
+        overflow: hidden; 
+		height:300px;		
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+}
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+
+.input-box{
+	width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+padding-left: 8px; 
+}
+.submit-btn{
+	margin-top:20px;
+	 width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+   # padding-left: 7px;  
+   text-align:center;
+   font-size:16px;
+   background:purple;
+    color: white;
+	border:1px solid white;
+}

@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background:linear-gradient(white,rgba(36, 255, 255, 1))
+}
+.logo{
+	margin-top:5px;
+	
+	height:7vh;
+	margin-left:50px;
+}
+.logo ul li{
+	display:inline-block;
+		
+}
+.logo img{
+	height:8vh;
+	width:70px;
+}
+.a{
+	padding-bottom:15px;
+}
+.ab{
+	
+	margin-left:800px;
+}
+.logo .a a{
+	text-decoration:none;
+	font-family:'Pacifico', cursive;
+	font-size:30px;
+	padding-bottom:5px;
+	
+}
+
+ 
+ 
+ .logo .ab a{
+	text-decoration:none;
+	color:black;
+	float:right;
+	padding:10px;
+	font-size:25px;
+}
+.logo .ab a:hover{
+	color:#fff;
+	
+	background:black;
+	transition:0.5s;
+	
+	border-radius:10px;
+}
+
+.wrapper{
+	
+	margin-top:15px;
+	height:400px;
+	width:100%;
+	background-image:url("dog9.jpeg") ;
+	border:5px solid black;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	background-position:center;
+	background-size:cover;
+}
+.wrapper h1{
+	color:blue;
+	position:absolute;
+	top:50%;
+	left:20%;
+}
+.selectPet1 ul li{
+	display:inline-block;
+	position:relative;
+	
+	
+}
+.selectPet1 ul{
+	margin-left:100px;
+	#margin-right:50px;
+	#border-bottom:1px solid black;
+	
+}
+
+.selectPet1 button{
+	font-size:27px;
+	padding:35px;
+	font-family:'Emblema One', cursive;
+	border:2px solid black;
+	background-color:rgba(255, 45, 82, 1);
+	border-top-left-radius:10px;
+}
+.format {
+	background:rgba(0,0,100,0.8);
+	color:white;
+	font-size:27px;
+	padding:35px;
+	width:290px;
+	border-radius:0px;
+	border:none;
+	border:2px solid black;
+	font-family:'Emblema One', cursive;
+	
+}
+
+
+select:focus > option:checked { 
+    background: #000 !important;
+}
+.yes{
+	background:black;
+	
+	
+}
+.formate3{
+	border-top-right-radius:10px;
+}
+.search_btn{
+	margin-left:600px;
+	margin-top:30px;
+	
+}
+.search_btn button{
+	font-size:30px;
+	padding:20px 50px;
+	border-radius:20px;
+	background-color:purple;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	
+}
+.search_btn button:hover{
+	transition:1s;
+	background:white;
+}
+	
+.container1{
+	margin-top:30px;
+	margin-left:60px;
+	margin-right:890px;
+	height:auto;
+	background:white;
+	border-radius:10px;
+}

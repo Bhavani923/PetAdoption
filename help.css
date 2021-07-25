@@ -1,0 +1,113 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: poppins;
+    margin: auto;
+    display: grid;
+    font-size: 14px;
+    }
+    header p {
+    padding: 1px;
+    text-align: center;
+    color: rgb(3, 72, 77);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 1000;
+    text-decoration: underline;
+    }
+    .footer {
+        margin-top: -300px;
+        display: flexbox;
+        flex-flow: row wrap;
+        padding: 30px;
+        color:rgb(214, 13, 80);
+        }
+      
+        .logo{
+          margin: auto;
+        }
+        
+        .footer > * {
+        flex:  1 100%;
+        }
+        
+        .l-footer {
+            margin-right: 1em;
+            margin-bottom: 1em;
+        }
+        
+        h2 {
+        font-weight: 250;
+        font-size: 20px;
+        }
+        
+        .footer ul {
+        list-style: none;
+        padding-left: 0;
+        }
+        
+        .footer li {
+        line-height: 1.5em;
+        }
+        
+        .footer a {
+        text-decoration: none;
+        }
+        
+        .r-footer {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 100em;
+        
+        }
+        
+        .r-footer > * {
+        flex: 1 50%;
+        margin-right: 1.25em;
+        }
+        
+        .box a {
+        color:rgb(2, 37, 51);
+        font-size: 1.2rem;
+        text-decoration: underline;
+        
+        }
+        
+        .h-box {
+        column-count: 2;
+        column-gap: 1.25em;
+        }
+        
+        .b-footer {
+        text-align: center;
+        color:rgb(19, 15, 15);
+        padding-top: 10px;
+        font-size: 1.5rem;
+        }
+        
+        .l-footer p {
+        padding-right: 20%;
+        color:rgb(6, 7, 48);
+        }   
+        
+        @media screen and (min-width: 400px) {
+        .r-footer > * {
+        flex: 1;
+        }
+        
+        .features {
+        flex-grow: 2;
+        }
+        
+        .l-footer {
+        flex: 1 0px;
+        }
+        
+        .r-footer {
+        flex: 2 0px;
+        }
+      }
+      section{
+        background-color: darkslategrey;
